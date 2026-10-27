@@ -891,8 +891,6 @@ class Ride extends React.Component {
         <div ref={v.mountRef} style={S('position:fixed;inset:0;background:linear-gradient(#5d4c9e,#ff9472 62%,#ffc79a)')} />
         <div style={S('position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(30,10,40,.35) 100%)')} />
 
-        {v.loading && <div style={S("position:fixed;inset:0;display:flex;align-items:center;justify-content:center;" + mono + "font-size:13px;letter-spacing:.16em;text-transform:uppercase")}>Warming up the engine…</div>}
-
         <header style={S('position:fixed;top:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:20px 28px;text-shadow:0 1px 10px rgba(40,10,40,.35)')}>
           <div style={S(mono + 'font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600')}>Hrishita — Portfolio</div>
           <nav style={S('display:flex;gap:8px;flex-wrap:wrap')}>
@@ -906,7 +904,7 @@ class Ride extends React.Component {
         <div style={{ ...S('position:fixed;left:0;right:0;top:22vh;display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;padding:0 24px;transition:opacity .6s ease, transform .8s cubic-bezier(.2,.7,.2,1);pointer-events:none;text-shadow:0 2px 24px rgba(60,20,50,.35)'), opacity: v.o0, transform: `translateY(${v.y0}px)` }}>
           <div style={S(mono + 'font-size:12px;letter-spacing:.24em;text-transform:uppercase')}>A portfolio, on two wheels</div>
           <h1 style={S("margin:0;font-family:'DM Serif Display', serif;font-weight:400;font-size:clamp(64px, 11vw, 148px);line-height:.92;letter-spacing:-.01em")}>Hrishita Joshi</h1>
-          <p style={S('margin:0;font-size:17px;max-width:34ch;text-wrap:pretty;color:#fff3ea')}>Scroll to ride. A garage, a café, a cyber cell, a library — and home, after the storm.</p>
+          <p style={S('margin:0;font-size:17px;max-width:34ch;text-wrap:pretty;color:#fff3ea')}>Scroll to ride.</p>
         </div>
         <div style={{ ...S('position:fixed;left:0;right:0;bottom:56px;display:flex;justify-content:center;transition:opacity .6s ease;pointer-events:none;' + mono + 'font-size:11px;letter-spacing:.2em;text-transform:uppercase'), opacity: v.o0 }}>↓ Scroll to start</div>
 
